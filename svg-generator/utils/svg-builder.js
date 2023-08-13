@@ -1,23 +1,19 @@
 import { askUserQuestions } from './inquirer'
 
-const svg = require('svg-builder')
-            .width(300)
-            .height(200);
+const {userShape, userText, userColor } = answers
 
 export function generateLogo(answers){
-    const logo = svg.
-
-    if (answers.userShape==='Circle') {
+    if (userShape==='Circle') {
 
 
     } 
 
-    else if (answers.userShape==='Triangle'){
+    else if (userShape==='Triangle'){
 
 
     } 
 
-    else if (answers.userInput==='Square'){
+    else if (userShape==='Square'){
 
 
     }
@@ -27,4 +23,4 @@ export function generateLogo(answers){
         return askUserQuestions()
     }
 }
-//make sure to account for inavlid color inputs
+//make sure to account for inavlid color inputs, add an || 

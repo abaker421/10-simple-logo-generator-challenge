@@ -1,4 +1,5 @@
 import inquirer from 'inquirer'
+import { generateLogo } from './svg-builder'
 
 export const askUserQuestions = inquirer.prompt([
     {
@@ -24,6 +25,7 @@ export const askUserQuestions = inquirer.prompt([
         console.log('You can only have three characters')
         return askUserQuestions
     }
+    generateLogo(answers)
 })
 
 

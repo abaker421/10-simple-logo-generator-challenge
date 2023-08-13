@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.10",
-    "svg-builder": "^2.0.0"
+    "inquirer": "^9.2.10"
   }
 }
