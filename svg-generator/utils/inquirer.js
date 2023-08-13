@@ -10,7 +10,8 @@ export const askUserQuestions = inquirer.prompt([
     {
         name: 'userShape',
         message: 'Choose a shape to use',
-        type: 'list'
+        type: 'list',
+        choices: ['Circle','Triangle', 'Square']
     },
     {
         name: 'userColor',
