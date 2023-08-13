@@ -1,4 +1,4 @@
-import {Triangle} from '../classes/index'
+import {Triangle} from '../classes/triangle'
 
 describe('Traingle Class', () => {
     it ('',()=>{
