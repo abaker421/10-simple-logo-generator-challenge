@@ -1,6 +1,9 @@
-import { askUserQuestions } from "./utils/inquirer"
-import { generateLogo } from "./utils/svg-builder"
 
-askUserQuestions()
+import {square} from './utils/classes/square.js'
 
-generateLogo(answers)
+
+//askUserQuestions()
+
+const shape= new square(0,1)
+
+console.log(shape)

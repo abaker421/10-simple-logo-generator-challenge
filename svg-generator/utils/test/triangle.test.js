@@ -1,6 +1,10 @@
-class triangle extends shape {
-constructor(){
-    super()
-}
+import {Triangle} from '../classes/index'
 
-}
+describe('Traingle Class', () => {
+    it ('',()=>{
+        //Arrange
+        //Act
+        //Assert
+    
+    })
+})
