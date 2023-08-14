@@ -7,6 +7,3 @@ export class Square extends Shape {
     }
     
 }
-
-const square= new Square('ten','two')
-console.log(square)
